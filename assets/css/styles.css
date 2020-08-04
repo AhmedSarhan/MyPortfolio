@@ -16,6 +16,10 @@ body{
     padding: 10px 35px;
     color: #fff;
 }
+.btn-transpaernt:hover{
+    color: #F1C40F;
+    transition: linear .6s;
+}
 .btn-custom{
     color: #fff;
     background-color: #F1C40F;
@@ -24,6 +28,9 @@ body{
     margin-top: 20px;
     font-size: 20px;
     font-weight: 400;
+}
+.btn-custom:hover{
+    color: #2c3e50;
 }
 .section-header{
     margin-top: 80px;
