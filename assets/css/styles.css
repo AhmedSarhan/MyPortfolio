@@ -89,7 +89,7 @@ header{
     background-image: url("imgs/nature.jpg");
     background-position: center;
     background-size: cover;
-    height: 670px;
+    height: 587px;
     color: #fff;
 }
 .header::before{
@@ -930,7 +930,7 @@ header{
 
 
 }
-.footer i:hover{
+.footer span:hover{
     background-color: #F1C40F;
     color: #fff;
     
@@ -1014,6 +1014,24 @@ header{
 
 
 /* fixing the header hieght */
+
+/* very large screen */
+@media only screen and (min-width:1440px){
+    header{
+        height: 734px;
+    }
+}
+@media only screen and (min-width: 1519px){
+    header{
+        height: 674px;
+    }   
+
+}
+@media only screen and (min-width:2560px){
+    header{
+        height: 1305px;
+    }
+}
 
 /* ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
