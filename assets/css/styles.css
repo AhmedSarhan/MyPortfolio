@@ -60,9 +60,9 @@ body{
     background: rgba(0,0,0,0.8);
     
 }
-section{
+/* section{
     margin-top: 70px;
-}
+} */
 
 
 /* pre-loader */
@@ -91,6 +91,7 @@ header{
     background-size: cover;
     height: 587px;
     color: #fff;
+    position: relative;
 }
 .header::before{
     position: absolute;
@@ -299,9 +300,9 @@ header{
 
 
 /* about section */
-.about{
+/* .about{
     margin-top: 70px;
-}
+} */
 
 .about .btn-custom{
     border-radius: 0;
