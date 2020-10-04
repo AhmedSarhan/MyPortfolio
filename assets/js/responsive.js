@@ -1,24 +1,6 @@
 $(document).ready(function () {
     'use strict';
 
-// pre loader
-
-// setTimeout(function () {
-//     $('.loader_bg').fadeToggle();
-// }, 1500);
-
-// var element = $(".text-affect");
-
-// $(function(){
-//     element.typed({
-//         strings: ["Designer.", "Developer.", "Freelancer."],
-//         loop: true,
-//         typeSpeed: 90,
-//         backSpeed: 90,
-//         fadeOut: true,
-//     });
-//  });
-
 
 
 // change the navbar background color on scroll
@@ -117,13 +99,13 @@ $(document).ready(function () {
 
 // portfolio slider
 var galleryThumbs = new Swiper('.gallery-thumbs', {
-    effect: 'coverflow',
-  grabCursor: true,
+  effect: 'coverflow',
+  grabCursor: false,
   centeredSlides: true,
   slidesPerView: 'auto',  
   spaceBetween: 10,
-  loop: true,
-  freeMode: true,
+  loop: false,
+  freeMode: false,
   loopedSlides: 2, //looped slides should be the same
   watchSlidesVisibility: true,
   watchSlidesProgress: true,
@@ -141,7 +123,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 
 var galleryTop = new Swiper('.gallery-top', {
   spaceBetween: 10,
-  loop: true,
+  loop: false,
   loopedSlides: 2, //looped slides should be the same
   navigation: {
     nextEl: '.swiper-button-next',
