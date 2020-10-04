@@ -827,11 +827,12 @@ header{
     -moz-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
     -webkit-transition: 0.3s cubic-bezier(0.4, 0, 1, 1);
     height: 0;
-    top: 50%;
+    top: 0;
+    bottom: 0;
     width: 0;
     text-align: center;
     opacity: 0;
-    left: 50%;
+    left: 0;
     background: rgba(241,196,15,0.5);
 
 }
